@@ -1,0 +1,81 @@
+.todo-form{
+    height: 300px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    /* transform: translate(-50%,-50%); */
+}
+
+.todo-form .input-section{
+    /* border: 1px solid white; */
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+.form-input{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.filter-input{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.days{
+    height: 10px;
+    width: 10px;
+    margin: 5px;
+}
+
+.input-section input{
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px;
+    width: 90%;
+    border-radius: 10px;
+    border: none;
+}
+
+.input-section select{
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px;
+    width: 90%;
+    border-radius: 10px;
+    border: none;
+}
+.input-section button{
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 90%;
+}
+
+
+.abcd{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 50px;
+    text-align: center; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 20px;
+}
+
+.calender{
+    background-color: aquamarine;
+    
+}
+.calender tr{
+    height: 20px;
+}

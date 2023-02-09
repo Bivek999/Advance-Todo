@@ -1,0 +1,15 @@
+.parts{
+    color: white;
+    background-color: rgba(248, 152, 168, 0.665);
+    border: none;
+    height: 200px;
+    width: 30%;
+    text-align: center; 
+    margin-top: 20px;
+}
+.parts button{
+    width: 30%;
+    height: 40px;
+    padding: 10px;
+    margin: 10px;
+}

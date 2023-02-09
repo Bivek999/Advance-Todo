@@ -1,0 +1,57 @@
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2017/10/31/19/05/web-design-2906159__340.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.user-form{
+    width: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    background-color: cadetblue;
+    opacity: 0.9;
+    z-index: 2;
+}
+
+.user-form h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.user-form p{
+    font-size: 20px;
+    margin: 20px 0;
+    font-weight: bolder;
+
+}
+
+.user-form input{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    border: 0;
+    outline: none;
+    width: 90%;
+    opacity: 1;
+}
+/* .user-form input:hover{
+    background-color: white;
+    cursor: pointer;
+} */
+
+.user-form button{
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 20px 0;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 0;
+    opacity: 1;
+}
